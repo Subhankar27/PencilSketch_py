@@ -15,6 +15,7 @@ def dodge(front,back):
     final_sketch[back==255]=255
     return final_sketch.astype('uint8')
 
+
 ss = imageio.imread(img)
 gray = rgb2gray(ss)
 
