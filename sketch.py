@@ -3,6 +3,7 @@ import imageio
 import scipy.ndimage
 import cv2
 
+
 img = "bill.jpg"
 
 def rgb2gray(rgb):
